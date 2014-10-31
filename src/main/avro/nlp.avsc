@@ -1,0 +1,9 @@
+{"namespace": "com.zetdata.avro",
+ "type": "record",
+ "name": "NlpResult",
+ "fields": [
+     {"name": "text", "type": "string"},
+     {"name": "sentiment", "type": "string"},
+     {"name": "sentiment_vector", "type": {"type": "array", "items": "double"} }
+ ]
+}
